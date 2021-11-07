@@ -1,0 +1,149 @@
+
+
+/* >= Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .row-cols-5 > * {
+        max-width: 33.33333%;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .card-img-wrap {
+        width: 690px;
+        height: 441px;
+    }
+}
+
+/* Mobile */
+@media(max-width: 46.25em) {
+    .row-cols-5 > * {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+}   
+
+/* Tablet and mobile */
+@media(max-width: 63.9375em) {
+
+    #input-layout:checked ~ .layout {
+    transform: translateX(0%);
+        
+    }
+
+    .nav-item-social--mobile  {
+        margin-left: 14px;
+    }
+
+    .navbar--res {
+        margin: 0;
+        height: 32px;
+    }
+
+    .navbar-mt {
+        height: 48px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-img {
+
+    }
+
+    .nav-item-social {
+        display: none;
+    }
+
+    .nav-item-menu-icon {
+        display: block;
+        font-size: 20px;
+    }
+
+    .navbar-wrap {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #panel {
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 70%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .text-container h1 {
+        
+        font-size: 44px;
+    }
+
+    .about-me-section {
+        padding-bottom: 100px;
+    }
+    
+    .about-me-img img {
+        width: 100%;
+    }
+
+    .about-me-activity .row {
+        flex-direction: column;
+    }
+
+    .activity-wrap {
+        margin-bottom: 32px;
+    }
+
+    .activity-content {
+        width: 100%;
+    }
+
+    .section-introduce {
+        width: 100%;
+    }
+
+    .offered-services-body .row {
+        flex-direction: column;
+    }
+
+    .row-cols-2 > * {
+        max-width: 100%;
+    }
+
+    .contact-me-content {
+        width: 100%;
+    }
+
+    .delivered-projects-body .row {
+        flex-direction: column;
+    }
+
+    .details-row {
+        flex-direction: column;
+    }
+
+    .details-row .col {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .row-cols-3 > * {
+        max-width: 100%;
+    }
+
+    .onTablet-introduce-logo {
+        justify-content: center;
+
+    }
+    
+    .onTablet-introduce-logo .col {
+        display: flex;
+    }
+
+}
