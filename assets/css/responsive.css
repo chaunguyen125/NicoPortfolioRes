@@ -1,7 +1,7 @@
 
 
 /* >= Tablet */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
+@media (min-width: 46.25em) and (max-width: 64em) {
     .row-cols-5 > * {
         max-width: 33.33333%;
         margin-bottom: 40px;
@@ -11,6 +11,8 @@
     .card-img-wrap {
         width: 690px;
         height: 441px;
+        width: 100%;
+
     }
 }
 
@@ -25,7 +27,7 @@
 }   
 
 /* Tablet and mobile */
-@media(max-width: 63.9375em) {
+@media(max-width: 64em) {
 
     #input-layout:checked ~ .layout {
     transform: translateX(0%);
